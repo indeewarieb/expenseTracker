@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const expense_categories = ['Groceries', 'Transportation', 'Entertainment', 'Dining out', 'Unassigned'];\nexport const expense_types = ['Credit', 'Debit', 'Cash'];","map":null,"metadata":{},"sourceType":"module"}

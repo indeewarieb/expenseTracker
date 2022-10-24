@@ -1,0 +1,16 @@
+<div class="col-md-6">
+  <table class="table table-striped">
+  <thead>
+  <tr>
+    <th>name</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let user of users">
+          <td>{{user.name}}</td>
+          <td><button class="btn btn-danger" (click)="deleteUser(user)"> Delete Employee</button></td>
+          </tr>
+  </tbody>
+    </table>
+
+  </div>
